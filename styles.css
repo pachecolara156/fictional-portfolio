@@ -1,0 +1,115 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Header and Navigation - Task 1, 2, 8 */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: darkblue;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/* About Section - Task 3 */
+#about {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-pic {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+/* Skills Section - Task 4 */
+#skills .skill-list {
+    display: flex;
+    gap: 20px;
+}
+
+.skill {
+    text-align: center;
+}
+
+.skill img {
+    width: 250px;
+    height: 250px;
+}
+
+/* Projects Section - Task 5 */
+#projects .project {
+    background-color: #f3f3f3;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+/* Recommendations - Task 6, 7 */
+#recommendation-list {
+    margin-bottom: 20px;
+}
+
+.recommendation {
+    background-color: #e0f7fa;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+
+#recommendation-form {
+    display: flex;
+    gap: 10px;
+}
+
+#recommendation-form input {
+    flex-grow: 1;
+    padding: 8px;
+}
+
+#recommendation-form button {
+    padding: 8px 12px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#recommendation-form button:hover {
+    background-color: #005fa3;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Client Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <i class="fas fa-home"></i> <!-- Task 8 -->
+            <span>John Doe</span> <!-- Task 1 -->
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li> <!-- Task 2 -->
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#recommendations">Recommendations</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Task 3 -->
+        <section id="about">
+            <img src="src/team-1.jpg" alt="Profile Photo" class="profile-pic">
+            <h2>John Doe</h2>
+            <p>I am a passionate junior developer eager to grow in full-stack development and contribute to real-world projects with enthusiasm and integrity.</p>
+        </section>
+
+        <!-- Task 4 -->
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skill-list">
+                <div class="skill"><img src="src/html.png" alt="HTML">HTML</div>
+                <div class="skill"><img src="src/CSS3_logo_and_wordmark.svg.png" alt="CSS">CSS</div>
+                <div class="skill"><img src="src/skills.jpg" alt="JavaScript">JavaScript</div>
+            </div>
+        </section>
+
+        <!-- Task 5 -->
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project">Personal Blog using HTML & CSS</div>
+            <div class="project">To-Do App with JavaScript</div>
+            <div class="project">Simple Portfolio Site</div>
+        </section>
+
+        <!-- Task 6 + 7 + 9 -->
+        <section id="recommendations">
+            <h2>Recommendations</h2>
+            <div id="recommendation-list">
+                <div class="recommendation">"John is dedicated and always eager to learn." - Anna</div>
+                <div class="recommendation">"Great team player with an eye for detail." - Mike</div>
+                <div class="recommendation">"Delivered the portfolio before the deadline!" - Sarah</div>
+            </div>
+            <form id="recommendation-form">
+                <input type="text" id="new-recommendation" placeholder="Write a new recommendation..." required>
+                <button type="submit">Add Recommendation</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
