@@ -60,16 +60,27 @@ nav a:hover {
 /* Skills Section - Task 4 */
 #skills .skill-list {
     display: flex;
-    gap: 20px;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
 }
 
 .skill {
     text-align: center;
+    width: 150px;
 }
 
 .skill img {
-    width: 250px;
-    height: 250px;
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+}
+
+.skill p {
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 /* Projects Section - Task 5 */
